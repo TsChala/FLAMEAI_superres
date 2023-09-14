@@ -8,7 +8,7 @@ The corresponding paper can be found here: [Image Super-Resolution via Iterative
 
 
 
-
+ <img src="./misc/superres1.png" alt="show" style="zoom:90%;" /> 
 
 
 
