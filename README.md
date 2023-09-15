@@ -39,9 +39,9 @@ The trained model parameters can be found in the experiments folders, the set of
 
 Training:
 - Training for the [ux,uy,uz] case: sr_flame_ai_230911_185035
- - The checkpoints folder has many trained weights, the last one was used for inference: I1000000_E818   
+    - The checkpoints folder has many trained weights, the last one was used for inference: I1000000_E818   
 - Training for the density case with channels [rho,uy,uz]: sr_flame_ai_230912_201811
- - Chekcpoint used for inference : I1200000_E1252 
+    - Chekcpoint used for inference : I1200000_E1252 
 
 
 Testing (these don't have the weights, just the final results in png format):
@@ -49,7 +49,7 @@ Testing (these don't have the weights, just the final results in png format):
 - Test results with [ux,uy,uz]: sr_flame_ai_230912_175205
 - Test results with [density,ux,uy,uz]: sr_flame_ai_230913_094253
 
-The model weights can be simply loaded in the json files, similarly to all the json files present, by setting resume_state to the folder containing the model weights. For example, *config/sr_sr3_16_128_flame_rho_test.json* contains the path to the last trained weights for inference on the test set with the [rho,uy,uz] model.
+The model weights can be simply loaded in the json files (see any json files in the config directory), by setting *resume_state* to the folder containing the model weights. For example, *config/sr_sr3_16_128_flame_rho_test.json* contains the path to the last trained weights for inference on the test set with the [rho,uy,uz] model.
 
 
 
