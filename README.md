@@ -38,9 +38,9 @@ The data has to be preprocessed for the SR3 model, the already preprocessed data
 The trained model parameters can be found in the experiments folders, the set of parameters that are used in the ipynb can be found here: [OneDrive](https://1drv.ms/f/s!AuYkVS2by4myic4i3eMPT3yM1p2GUg?e=yhlf0I). Some experiments are for training and some for testing only. The weights can be found in the /checkpoint/ folders. In the /results/ folder the superresolved images can be found in png format. These are loaded by the .ipynb for visualization and postprocessing.
 
 Training:
-- Training for the [ux,uy,uz] case: sr_flame_ai_230911_185035
+- Training for the [ux,uy,uz] case: [sr_flame_ai_230911_185035](https://1drv.ms/f/s!AuYkVS2by4myieJCLSYAp4aVdlQp_g?e=rxurTc)
     - The checkpoints folder has many trained weights, the last one was used for inference: I1000000_E818   
-- Training for the density case with channels [rho,uy,uz]: sr_flame_ai_230912_201811
+- Training for the density case with channels [rho,uy,uz]: [sr_flame_ai_230912_201811](https://1drv.ms/f/s!AuYkVS2by4myieIpHTSop6OTNYDEvA?e=GtTemJ)
     - Chekcpoint used for inference : I1200000_E1252 
 
 
